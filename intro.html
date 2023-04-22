@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Intro</title>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #111;
+    overflow: hidden;
+    padding-left: 35rem;
+}
+
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+
+.heading span{
+    color: yellow;
+}
+
+.title{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+
+.title span{
+    color: yellow;
+}
+
+.head{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+.head span{
+    color: yellow;
+}
+.pro{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+.pro span{
+    color: yellow;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background:#1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: .5rem solid;
+}
+
+header .user .nm{
+    font-size:2rem;
+    color: #fff;
+}
+
+header .user .jb{
+    font-size:1rem;
+    color: #fff;
+}
+
+header .nv{
+    width: 100%;
+}
+header .nv ul{
+    list-style: none;
+    padding: 1rem ;
+}
+
+header .nv ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #333;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+    text-decoration: none;  
+}
+header .nv ul li a:hover{
+    background-color:yellowgreen;
+}
+
+.Details .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Details .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Details .Row .det h3{
+    font-size: 2rem;
+    color: yellow;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Details .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+table,th,td{
+    border: 1px solid yellow;
+    border-collapse: collapse;
+}
+td{
+    color: white;
+    padding: 1rem;
+}
+th{
+    color: white;
+    padding: 1rem;
+}
+table{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+#lis li{
+    margin: 0 9rem;
+    color: white;
+    font-size: medium;
+    padding: .5rem 1rem;
+}
+.Project .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Project .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Project .Row .det h3{
+    font-size: 2rem;
+    color: yellow;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Project .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+.firstt{
+    font-size: 20px;
+    color: #eee;
+}
+</style>
+    </head>
+    <body>
+        <!--
+            start
+        -->
+        
+        <!--stop-->
+<header>
+    <div class="user">
+        <img src="image1/personal.jpg" alt="">
+        <h5 class="nm">Prince Prakash</h5>
+        <p class="jb">Traine Software Developer</p>
+    </div>
+    <nav class="nv">
+        <ul>
+            <li><a href="#Details">Details</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Technical Skills">Technical Skills</a></li>
+            <li><a href="#Project">Project</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="Details" id="Details">
+    <img src="image1/3.png" alt="logo" height="70px" width="100px"> 
+    <h1 class="heading"><span>Details About me</span></h1>
+    <div class="row">
+        <div class="det firstt" >
+            <h3><span>Name:</span>Prince Prakash</h3>
+            <h3><span>Age:</span>23</h3>
+            <h3><span>Gender:</span>Male</h3>
+            <h3><span>Email:</span>prakashprince095@gmail.com</h3>
+            <h3><span>Phone_no::</span>6200766050</h3>
+           
+        </div>
+    </div>
+</section>
+<section class="Education" id="Eductaion">
+    <h1 class="title"><Span>Education</Span></h1><br><br><br>
+    <table>
+        <tr>
+            <th>Course</th>
+            <th>Name Of The Institute</th>
+            <th>University</th>
+            <th>Percentage</th>
+
+        </tr>
+        <tr>
+            <td>B-Tech</td>
+            <td>Sant longowal Institue Of Enginerring And Technology</td>
+            <td>SLIET</td>
+            <td>8.8sgpa</td>
+
+        </tr>
+        <tr>
+            <td>Diploma</td>
+            <td>Sant longowal Institue Of Enginerring And Technology</td>
+            <td>SLIET</td>
+            <td>8.3sgpa</td>
+        </tr>
+        <tr>
+            <td>Matriculation</td>
+            <td>Scholar's Abode Patna</td>
+            <td>CBSE</td>
+            <td>8.8cgpa</td>
+        </tr>
+    </table>
+</section>
+<br><br><br><br><br><br>
+<Section class="Technical Skills" id="Technical Skills">
+    <h1 class="head"><span>Technical Skills</span></h1>
+    <div>
+        <ul id="lis">
+        <li>java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Angular</li>
+        <li>Springboot</li>
+        <li>Hibernet</li>
+        <li>Python</li> 
+        <li>Sql </li>
+        <li>Manual Testing</li>
+        </ul>
+    </div>
+</Section>
+<section class="Project" id="Project">
+    <h1 class="heading"><span>Project</span></h1>
+    <div class="row">
+        <div class="det firstt" >
+            <h3><span>Role:</span>developer</h3>
+            <h3><span>Title:</span>Personal Portfolio website using pure HTML,CSS and JAVASCRIPT</h3>
+            <h3><span>Description:</span>A personal portofilo website i had created using many front-end technology like
+            html, css and JavaScript and it is a full flezed front end full resposive Applictaion
+        And i am working more on many Backend technology like Springboot,hibernet,mysql db to make this project fullstack 
+    by connecting this website with data base so that i can store data and fretch data from the data base</h3>
+        </div>
+    </div>
+</section>
+    </body>
+</html>

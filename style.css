@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(163, 163, 163);
+    position: absolute;
+    font-family: 'Abril Fatface', cursive;
+    height: 100vh;
+    
+    transition: transform 0.45s ease-in;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding:33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.main{
+    /*background-color: yellow;*/
+    width:90vw;
+    font-family: 'Abril Fatface', cursive;
+}
+.container{
+    display:flex;
+}
+
+
+.infoContainer{
+   /* background-color: rgb(0, 255, 47);*/
+    height: 46vh;
+    width: 80vw;
+    margin: 144px auto;
+    display:flex;
+    justify-content: space-around;
+}
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+pre{
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.hello{
+font-size: 3em;
+padding: 20px;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    padding-inline: 10px;
+
+}
+.about{
+    font-size: 2.5em;
+
+}
+.moreabout{
+    font-size: 2.2em;
+    font-family:   'Abril Fatface', cursive;
+    margin-top: 23px;
+}
+.buttons{
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+.buttons button{
+    padding:9px 14px;
+    border-radius: 22px;
+    color: aliceblue;
+    background-color: rgb(84, 84, 228);
+    font-weight: bold;
+     font-size: 21px;
+     margin: 0 3 px;
+     cursor: pointer;
+}
+.btn-sm{
+    font-size: 14px;
+    padding:10px 19px;
+    margin:12px 0;
+}
+.buttons button:hover{
+    background-color: white;
+    color:aquamarine
+}
+.devpic img{
+    height:46vh;
+    
+    
+}
+/* changing css of contact page */
+.contactform{
+    padding: 0 34px;
+    margin-top: 12.5%;
+    margin :0 15rem;
+}
+.contactform h1{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px 0;
+    
+}
+.contactform form div{
+    padding: 10px 0;
+    display:flex;
+    flex-direction: column;
+}
+.contactform form div input{
+   /* width:26vw;*/
+    border-radius: 5px;
+    margin:6px 0 0 0;
+    padding:3px;
+}
+.contactform form {
+    margin:0 40px;
+ }
+#emailHelp{
+    font-size: 15px;
+    color:rgb(51, 51, 203);
+    margin: 0 5px;
+}
+#form-check{
+flex-direction: row;
+}
+#form-check input{
+  width:20px;
+  margin:3px 0;
+}
+.btn2{
+    padding:9px 14px;
+    border-radius: 22px;
+    color: aliceblue;
+    background-color: rgb(84, 84, 228);
+    font-weight: bold;
+     font-size: 21px;
+     margin: 0 3 px;
+     cursor: pointer;
+     
+}
+.btn2:hover{
+    background-color: white;
+    color:aquamarine
+}
+/* styling of blog page */
+.blogItem{
+margin:20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blogContainer{
+    margin: 0 15rem;
+}
+.blogContainer h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+    
+}
+.blogItem p{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+/* code for making website resposive */
+@media (max-width:1615px){
+    *{
+       /* background-color: rgb(230,146,146);*/
+    }
+    .devpic{
+       /*
+        display: none;*/
+    }
+  /*  .sidebar{
+        transform:translate(-443px,0px);
+        position:absolute;
+    } */
+}
+/* js part styling hamburger */
+.hamburger{
+    position:absolute;
+    cursor:pointer;
+    top:10px;
+    left:10px;
+
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 11vw;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.sidebarGo{
+    transform:translate(-443px,0px);
+    position:absolute;
+}
+
+@media(max-width:1500px)
+{
+    .devInfo{
+        font-size: 10px;
+    }
+    .devpic img{
+        background-color: brown;
+        flex-direction: column;
+        height: 20rem;
+        width: 15rem;
+    }
+    .intro, .blogContainer, .contactform{
+        margin:8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+}
+.service{
+    text-align: center;
+    align-items: center;
+    border:5px solid red;
+}
+.service h1{
+    color: blueviolet;
+    font-size: 5rem;
+}
+.servicemid{
+    color:blue;
+    font-size: 3rem;
+    text-align: center;
+}
+.connatiner{
+    background-color: blueviolet;
+}
